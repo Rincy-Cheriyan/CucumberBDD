@@ -1,0 +1,484 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "negative Test Scenario",
+        "description": "",
+        "id": "login-feature;negative-test-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 167100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8786281700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usre is on loginpage",
+            "match": {
+              "location": "LoginStepDef.usre_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2036260600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"capg\" and \"capg123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "capg",
+                  "offset": 13
+                },
+                {
+                  "val": "capg123",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283480800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on signin link",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19903700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "negative Test Scenario",
+        "description": "",
+        "id": "login-feature;negative-test-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 66200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4996341800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usre is on loginpage",
+            "match": {
+              "location": "LoginStepDef.usre_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2293051300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"admin\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241752000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on signin link",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84192100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "negative Test Scenario",
+        "description": "",
+        "id": "login-feature;negative-test-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 98800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4262314700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usre is on loginpage",
+            "match": {
+              "location": "LoginStepDef.usre_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1648035800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 13
+                },
+                {
+                  "val": "admin@123",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 792757600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on signin link",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97862300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "negative Test Scenario",
+        "description": "",
+        "id": "login-feature;negative-test-scenario;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 83700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259023300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usre is on loginpage",
+            "match": {
+              "location": "LoginStepDef.usre_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1494942600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"admin\" and \"a@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "a@123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470875400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on signin link",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34758900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Registration Scenario",
+        "description": "",
+        "id": "login-feature;registration-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 97000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "usre is on registrationpage",
+            "match": {
+              "location": "LoginStepDef.usre_is_on_registrationpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2730500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters data",
+            "match": {
+              "location": "LoginStepDef.user_enters_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "rincy"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "password",
+                  "rincy@123"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "cpassword",
+                  "rincy@234"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "mailid",
+                  "rc@rc.com"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "mobno",
+                  "123456789"
+                ],
+                "line": 34
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2079200,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.cg.stepdef.LoginStepDef.user_clicks_on_signin_link(LoginStepDef.java:31)\r\n\tat ✽.And user clicks on signin link(Login.feature:35)\r\n",
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "user clicks on signin link",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@A"
+          },
+          {
+            "line": 26,
+            "name": "@B"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
