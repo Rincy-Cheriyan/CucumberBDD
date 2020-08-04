@@ -20,7 +20,7 @@ public class TestBase {
 	{
 		properties=new Properties();
 		try {
-			System.out.println("Hello");
+			System.out.println("Hello world");
 			properties.load(new FileInputStream("com.cg.config\\config.properties"));
 			
 		} catch (FileNotFoundException e) {
